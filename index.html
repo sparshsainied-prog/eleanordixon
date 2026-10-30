@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Eleanor Dixon · The Murmuring Mirror</title>
+<meta name="description" content="A homepage idea made by Sparsh Saini for Eleanor Dixon. Not their official site.">
+<meta property="og:title" content="Eleanor Dixon · The Murmuring Mirror (a homepage idea)">
+<meta property="og:description" content="A homepage idea made by Sparsh Saini for Eleanor Dixon. Not their official site.">
+<meta property="og:image" content="https://sparshsainied-prog.github.io/eleanordixon/img/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/mirror.jpg">
+<style>
+:root{--bg:#1c1646;--ink:#fff6ee;--acc:#ff7a59;--soft:#b9aee0;--panel:#6b2b66;--btn:#1c1646}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--bg)}
+body{background:var(--bg);color:var(--ink);font:1.1rem/1.65 'Lora',Georgia,serif;-webkit-font-smoothing:antialiased}
+a{color:var(--acc)}
+.strip{background:var(--ink);color:var(--bg);font-size:.85rem;text-align:center;padding:.5rem 16px}
+h1,h2,h3,.t{font-family:'Kaushan Script','Brush Script MT',cursive;font-weight:400;line-height:1}
+nav.top{position:fixed;z-index:30;right:12px;top:48px;display:flex;gap:1.1rem;background:var(--bg);border:1px solid var(--ink);padding:.45rem 1rem}
+nav.top a{color:var(--ink);text-decoration:none;font:600 .95rem 'Lora',Georgia,serif}
+@media(max-width:700px){nav.top{top:auto;bottom:12px;right:50%;transform:translateX(50%);white-space:nowrap}}
+.hero{position:relative;height:380vh}
+.stage{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;background:var(--bg)}
+.bk{position:absolute;left:0;top:0;width:var(--bw);will-change:transform;transform-origin:50.0% 57.99999999999999%}
+.bk img{display:block;width:100%;height:auto;box-shadow:0 18px 40px rgba(0,0,0,.28)}
+.copy{position:absolute;z-index:4;left:20px;right:20px;bottom:70px;text-align:center;opacity:0;will-change:opacity}
+.copy h1{font-size:clamp(2.4rem,11vw,4.4rem);color:var(--ink)}
+.copy .lab{font:600 1.15rem 'Lora',Georgia,serif;margin:.5rem 0 1rem;color:var(--acc)}
+.btns{display:flex;flex-wrap:wrap;gap:.7rem;justify-content:center}.btns.l{justify-content:flex-start}
+.btn{font:600 1rem 'Lora',Georgia,serif;text-decoration:none;color:var(--btn);background:var(--acc);padding:.7rem 1.4rem;border:2px solid var(--acc);border-radius:22px}
+.btn.o{background:transparent;color:var(--acc)}
+@media(max-width:899px){.stage::after{content:"";position:absolute;left:0;right:0;bottom:0;height:34%;background:linear-gradient(transparent,var(--bg) 62%);pointer-events:none;z-index:3}}
+@media(min-width:900px){.copy{left:auto;right:6vw;width:36vw;top:50%;bottom:auto;transform:translateY(-50%);text-align:left}.btns{justify-content:flex-start}}
+section.s{max-width:1040px;margin:0 auto;padding:5.5rem 20px}
+h2{font-size:clamp(2rem,6vw,3.2rem);margin-bottom:1.6rem}
+.bkrow{display:grid;gap:2rem;align-items:center;margin-bottom:3.5rem}
+.bkrow img{width:min(230px,62%);display:block;margin:0 auto;box-shadow:0 14px 30px rgba(0,0,0,.28)}
+.bkrow h3{font-size:1.9rem;margin-bottom:.8rem}
+.bkrow p{margin-bottom:.8rem;max-width:56ch}
+@media(min-width:780px){.bkrow{grid-template-columns:260px 1fr;gap:3rem}}
+.about{max-width:60ch}.about p{margin-bottom:1rem}
+.fair{background:var(--panel);color:var(--bg);padding:2.2rem 1.5rem;display:grid;gap:1rem;align-items:center}
+.fair h2{color:var(--bg);margin-bottom:.5rem}.fair a{color:var(--bg)}
+@media(min-width:780px){.fair{grid-template-columns:1fr auto}}
+.fair .big{font-size:clamp(2.2rem,8vw,3.6rem)}
+.find{margin-top:2.2rem}
+footer{text-align:center;color:var(--soft);font-size:.9rem;padding:3rem 16px 6rem;border-top:1px solid var(--soft)}
+@media (prefers-reduced-motion:reduce){.hero{height:auto}.stage{position:relative;height:auto;padding:2rem 20px 7rem;min-height:100svh}.bk{position:relative;margin:0 auto 1.4rem;width:min(60vw,280px)!important;transform:none!important}.copy{position:relative;opacity:1!important;left:auto;right:auto;bottom:auto;top:auto;width:auto;transform:none!important;text-align:center}.btns{justify-content:center}.stage::after{display:none}}
+.copy h1{font-size:clamp(2.4rem,11vw,4rem);color:#fff6ee}h2,.bkrow h3{color:#fff6ee}.copy .lab{font-weight:500;color:#ffd9c8}.fair{color:#fff6ee}.fair .big,.fair h2,.fair p,.fair a{color:#fff6ee}.bk img{box-shadow:0 18px 40px rgba(0,0,0,.5)}.btn.o{color:#ff7a59}nav.top{border-color:#ff7a59;border-radius:22px}nav.top a{color:#fff6ee}.strip{background:#fff6ee;color:#1c1646}@media(max-width:899px){.copy h1{font-size:2.2rem}.copy .lab{font-size:1rem;margin:.4rem 0 .8rem}.btn{padding:.6rem 1rem;font-size:.9rem}}
+</style>
+</head>
+<body>
+<div class="strip">A homepage idea made by Sparsh Saini for Eleanor Dixon. Not their official site.</div>
+<nav class="top" aria-label="Sections"><a href="#books">Books</a><a href="#about">Eleanor</a><a href="#meet">Events</a></nav>
+<header class="hero">
+  <div class="stage" id="stage">
+    <div class="bk" id="bk" role="img" aria-label="The Murmuring Mirror by Eleanor Dixon: a white scrolled mirror frame with drifting pages in front of a turreted school at a magenta and violet sunset"><img src="img/mirror.jpg" alt="" width="800" height="1283"></div>
+    <div class="copy" id="copy">
+      <h1>The Murmuring Mirror</h1>
+      <div class="lab">Amberwood Hall Ballet School, Book 5. A summer of dance, secrets and ghostly whispers.</div>
+      <div class="btns"><a class="btn" href="https://www.amazon.co.uk/dp/1838270892">Get it on Amazon</a><a class="btn o" href="#meet">On the shelf</a></div>
+    </div>
+  </div>
+</header>
+<main>
+<section class="s" id="books">
+  <h2>The books</h2>
+  <div class="bkrow"><img src="img/mirror.jpg" alt="The Murmuring Mirror" width="800" height="1283" loading="lazy"><div><h3>The Murmuring Mirror</h3><p>When Lauren and her friends return to Amberwood Hall for the summer term, a strange mirror found in the old cellar begins to affect the dancers in eerie ways. Whispers echo from within. Reflections do not quite match.</p><p>Book 5 in the Amberwood Hall Ballet School series. Perfect for readers 9 and up: ballet dreams, ghostly friendship and a hint of pre-teen romance.</p><div class="btns l"><a class="btn" href="https://www.amazon.co.uk/dp/1838270892">Amazon UK</a><a class="btn o" href="https://eleanordixon.com/the-murmuring-mirror/">Book page</a></div></div></div><div class="bkrow"><img src="img/tally4.jpg" alt="Tally and the Angel: The Sands of Time" width="800" height="1200" loading="lazy"><div><h3>Tally and the Angel: The Sands of Time</h3><p>Book four of the middle grade series where Tally and her angel Jophiel, who lives in her mother&#x27;s pendant, battle mythical creatures in a new place each time. This one is set in Greece.</p><p>Inspired by my own travels and my years running a ballet school in Athens.</p><div class="btns l"><a class="btn" href="https://eleanordixon.com/tally-and-the-angel/">The series</a></div></div></div>
+</section>
+<section class="s" id="about">
+  <h2>Eleanor</h2>
+  <div class="about"><p>I went to ballet boarding school, which is where The Graceful Ghost comes from. After I left I danced around Europe, then opened my own ballet school in Athens, Greece.</p><p>Now I live in rural England with my husband and our pets. My children&#x27;s books are full of fantasy and magic, sometimes sprinkled with ballet and sometimes with worldwide travel.</p></div>
+</section>
+<section class="s" id="meet">
+  <div class="fair">
+    <div><h2>On the shelf at The Book Dragon</h2><p>The Book Dragon in Stockton-on-Tees only stocks self-published and independent authors. It carries Tally and the Angel, and wrote up the series with a book review and an interview.</p><p><a href="https://www.thebookdragon.co.uk/product/tally-and-the-angel/">Tally and the Angel at The Book Dragon</a></p></div>
+    <div class="big t">Stockton-on-Tees</div>
+  </div>
+  <p class="find">Find me on <a href="https://www.instagram.com/theburrowinthefield">Instagram</a> and at <a href="https://eleanordixon.com">eleanordixon.com</a>.</p>
+</section>
+</main>
+<footer>A mockup made by Sparsh Saini for Eleanor Dixon. Not affiliated, not live.</footer>
+<script>
+(()=>{const hero=document.querySelector('.hero'),stage=document.getElementById('stage'),copy=document.getElementById('copy'),bk=document.getElementById('bk');
+if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+let W,H,bw,bh,rx,ry,ht,tick=false;const cl=v=>Math.max(0,Math.min(1,v)),eio=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+const R=0.6235,S0=2.4;
+function measure(){W=innerWidth;H=stage.clientHeight;const d=W>=900;bh=d?H*.72:Math.min(H*.58,W*.82/R);bw=bh*R;bk.style.setProperty('--bw',bw+'px');rx=d?W*.3-bw/2:W/2-bw/2;ry=d?H/2-bh/2:H*.05;ht=hero.offsetHeight-H;draw()}
+function draw(){tick=false;const p=cl((scrollY-hero.offsetTop)/ht);
+ const z=eio(cl(p/.72));const s=S0-(S0-1)*z;
+ // start deep in the cover, pull back until the whole cover sits in its place
+ const fx=bw*0.5,fy=bh*0.58;
+ const tx=(1-z)*(W/2-fx)+z*rx,ty=(1-z)*(H*.4-fy)+z*ry;
+ bk.style.transform=`translate(${tx}px,${ty}px) scale(${s})`;
+ const c=cl((p-.8)/.14);copy.style.opacity=c.toFixed(3);copy.style.transform=(W>=900?'translateY(-50%) ':'')+`translateY(${(1-c)*14}px)`}
+addEventListener('scroll',()=>{if(!tick){tick=true;requestAnimationFrame(draw)}},{passive:true});addEventListener('resize',measure);measure()})();
+</script>
+</body>
+</html>
